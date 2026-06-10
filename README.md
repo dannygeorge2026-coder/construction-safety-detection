@@ -1,6 +1,10 @@
 # 🦺 Construction Site Safety Monitor
 
+[![Live Demo](https://img.shields.io/badge/🚀%20Live%20Demo-construction--safety.streamlit.app-ff4b4b?style=for-the-badge&logo=streamlit)](https://construction-safety.streamlit.app/)
+
 A real-time **PPE (Personal Protective Equipment) violation detection** system for construction sites, built with YOLOv11 and Streamlit. The system detects workers missing hardhats, safety vests, and masks — and generates downloadable violation reports.
+
+> 🌐 **Try it live:** [https://construction-safety.streamlit.app](https://construction-safety.streamlit.app/)
 
 ---
 
@@ -96,7 +100,7 @@ Then open [http://localhost:8501](http://localhost:8501) in your browser.
 ## 🎬 Usage
 
 1. Open the Streamlit dashboard
-2. Set the model weights path in the **sidebar** (default: `runs/detect/train-4/weights/best.pt`)
+2. Set the model weights path in the **sidebar** (default: `models/best.pt`)
 3. Adjust **confidence threshold** as needed
 4. Upload a construction site video (`.mp4`, `.avi`, `.mov`, `.mkv`)
 5. Click **▶ Run Analysis**
