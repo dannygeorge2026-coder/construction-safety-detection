@@ -6,9 +6,11 @@ __pycache__/
 *.pyc
 tempCodeRunnerFile.py
 
-# YOLO / Model weights (too large for GitHub)
+# YOLO / Model weights — exclude root-level base weights
 *.pt
 *.pth
+# But include the trained model used by the app
+!models/best.pt
 *.onnx
 *.torchscript
 

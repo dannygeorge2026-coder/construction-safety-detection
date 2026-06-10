@@ -70,7 +70,7 @@ st.divider()
 # ── Sidebar ───────────────────────────────────────────────────────────────────
 with st.sidebar:
     st.markdown("### Model")
-    model_path = st.text_input("Weights path", value="runs/detect/train-4/weights/best.pt")
+    model_path = st.text_input("Weights path", value="models/best.pt")
 
     st.markdown("### Detection")
     conf_thresh = st.slider("Confidence threshold", 0.1, 0.95, 0.5, 0.05)
